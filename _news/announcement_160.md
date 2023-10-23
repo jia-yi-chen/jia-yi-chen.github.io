@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2023-03-16 07:59:00-0400
+date: 2023-06-01 07:59:00-0400
 inline: true
 ---
 
-Our paper entitled "Latent Signal Models: Learning Compact Representations of Signal Evolution for Improved Time-Resolved, Multi-contrast MRI" was accepted by MRM!
-
+Our paper entitled "On Hierarchical Disentanglement of Interactive Behaviors for Multimodal Spatiotemporal Data with Incompleteness" is accepted by KDD'23 Research Track!

@@ -22,9 +22,9 @@ social: true  # includes social icons at the bottom of the page
 
 Hi! I am a Ph.D. candidate at [University of Virginia](https://www.virginia.edu) majoring in [Computer Science](https://engineering.virginia.edu/departments/computer-science). 
 I am advised by Prof. [Aidong Zhang](https://scholar.google.com/citations?user=O8XxkE4AAAAJ&hl=en).
-My research focuses are broadly in Machine Learning and Data Mining, with a focus on Multimodal Machine Learning, Graph Mining, Federated Learning, Continual Learning, and Model Compression.
+My research interests are broadly in Machine Learning and Data Mining, with a focus on Multimodal Machine Learning, Graph Mining, Continual Learning, Federated Learning, and Efficient Knowledge Transfer.
 
-Before joining UVa, I received my Bachelor's degree in Automation Engineering and Master's degree in Control Science and Engineering from [Xi'an Jiaotong University](http://en.hit.edu.cn/). I worked at the Institute of Artificial Intelligence and Robotics, focusing on projects related to Computer Vision, Vision-guided Graphics, and Robotics,  under the supervision of Prof. [Nanning Zheng](https://research.com/u/nanning-zheng) and Prof. [Xuguang Lan](https://www.semanticscholar.org/author/Xuguang-Lan/2498428).<!-- I am passionate about exploring AL/ML/CV/NLP potentials in daily lives! -->
+Before joining UVa, I received my Bachelor's degree in Automation Engineering and Master's degree in Control Science and Engineering from [Xi'an Jiaotong University](http://en.hit.edu.cn/). I worked at the Institute of Artificial Intelligence and Robotics during 2015-2018, under the supervision of Prof. [Xuguang Lan](https://www.semanticscholar.org/author/Xuguang-Lan/2498428) and Prof. [Nanning Zheng](https://research.com/u/nanning-zheng), focusing on projects related to Computer Vision, 3D Neural Style Transfer, and Robotics.<!-- I am passionate about exploring AL/ML/CV/NLP potentials in daily lives! -->
 
 <!-- Hi! I am currently a fifth-year Ph.D. student at MIT majoring in Electrical Engineering and Computer Science. -->
 <!-- My research focuses on machine learning and developing robust and efficient algorithms driven by clinical problems.
