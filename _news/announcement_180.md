@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2023-10-9
+date: 2023-10-09
 inline: true
 ---
 
-Two papers accepted by EMNLP 2023! Thanks for my collaborators from Google!
+We got 2 papers accepted by [EMNLP 2023](https://2023.emnlp.org/) (will appear)! 
+Thanks for my collaborators from Google!

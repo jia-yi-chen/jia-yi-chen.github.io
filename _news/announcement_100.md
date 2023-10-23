@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-06-02 07:59:00-0400
+date: 2020-08-12 07:59:00-0400
 inline: true
 ---
 
-Our paper "SVoRT: Iterative Transformer for Slice-to-Volume Registration in Fetal Brain MRI" was accepted as oral presentation in MICCAI 2022.
+My first paper after joining PhD "HGMF: Heterogeneous Graph-based Fusion for Multimodal Data with Incompletenes" accepted by KDD'20 Reseach Track!

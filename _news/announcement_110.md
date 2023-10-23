@@ -4,4 +4,4 @@ date: 2022-08-12 07:59:00-0400
 inline: true
 ---
 
-My last day at Meta. I had a wonderful summer here! :sparkles: :smile:
+My master's thesis work "Deep Semantic Space guided Multi-scale Neural Style Transfer" accepted by Multimedia Tools and Applications!

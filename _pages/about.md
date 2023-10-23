@@ -30,7 +30,7 @@ Before joining UVa, I received my Bachelor's degree in Automation Engineering an
 <!-- My research focuses on machine learning and developing robust and efficient algorithms driven by clinical problems.
 Applications include motion-robust 3D rendering of the human brain, real-time quality assessment in MR scans as well as pose estimation and motion characterization of fetuses. -->
 
-I also did summer internships at Google LLC and Google DeepMind, working on Multimodal Few-shot Learning, LLMs, and Model Compression. 
+I also did summer internships at Google in 2022 and 2023, working on Multimodal Few-shot Learning, LLMs, and Model Compression. 
 
 <!-- Prior to MIT, I received my Bachelor's degree from Tsinghua University in 2018. I also spent a summer as a research assistant at Stanford, where I was advised by Prof. [John Pauly](https://web.stanford.edu/~pauly/) and Prof. [Greg Zaharchuk](https://profiles.stanford.edu/greg-zaharchuk). -->
 

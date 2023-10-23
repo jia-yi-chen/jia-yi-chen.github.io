@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-09-09 07:59:00-0400
+date: 2023-06-06 07:59:00-0400
 inline: true
 ---
 
-I finished my last day of internship at Google DeepMind!
+I joined YouTube and Brain STAR teams at Google DeepMind as a summer intern!
