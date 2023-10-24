@@ -53,11 +53,6 @@
 - title: Work Experience
   type: time_table
   contents:
-    - title: Research Assistant
-      institution: University of Virginia
-      year: 2018 - present
-      # description:
-      #  - <u>Areas:</u> Multimodal Machine Learning, Graph Mining, Continual Learning, Federated Learning, Model-efficient Transfer Learning
     - title: Software Engineer Intern (PhD)
       institution:  Google LLC
       year: Jun - Sep 2023
@@ -72,6 +67,11 @@
         - <u>Teams:</u> Cloud DocAI and Google Brain
         - <u>Mentors:</u> Hanjun Dai and Bo Dai (DeepMind); Wei Wei (Cloud DocAI)
         - <u>Project:</u> Efficient Task-personalized Multimodal Information Extraction
+    - title: Research Assistant
+      institution: University of Virginia
+      year: 2018 - present
+      # description:
+      #  - <u>Areas:</u> Multimodal Machine Learning, Graph Mining, Continual Learning, Federated Learning, Model-efficient Transfer Learning
     - title: Research Assistant
       institution: Xi'an Jiaotong University
       year: 2016 - 2018
