@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
+permalink: /artwork/
+title: artwork
 description: #Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 5
 ---
 
-## MIT
+## P
 
 - 6.008: Introduction to Inference, Teaching Assistant Fall 2021
 - 6.3800: Introduction to Inference, Teaching Assistant Fall 2022
