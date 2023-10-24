@@ -1,12 +1,11 @@
 ---
 layout: page
-permalink: /artwork/
+permalink: /hobbies/
 title: hobbies
 description: #Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 4
 ---
-
 
 I enjoy drawing in my free time! 
 
