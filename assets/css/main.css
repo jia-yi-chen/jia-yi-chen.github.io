@@ -98,11 +98,11 @@ body {
   background-color: var(--global-bg-color);
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
-  scroll-margin-top: 166px;
+  scroll-margin-top: 46px;
 }
 
 body.fixed-top-nav {
-  padding-top: 56px;
+  padding-top: 86px;
 }
 
 body.sticky-bottom-footer {
@@ -124,7 +124,7 @@ body.sticky-bottom-footer {
 * Projects
 *****************************************************************************/
 /*****************************************************************************
-* Preview (Junshen)
+* Preview (Jiayi)
 *****************************************************************************/
 .myImg {
   border-radius: 5px;
@@ -160,7 +160,7 @@ body.sticky-bottom-footer {
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 400px;
+  max-width: 700px;
   text-align: center;
   color: #C2C0BF;
   padding: 10px 0;
