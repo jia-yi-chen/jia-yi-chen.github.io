@@ -15,7 +15,7 @@
   contents:
     - title: Ph.D. in Computer Science
       institution: University of Virginia
-      year: 2018 - 2023
+      year: 2018 - present
     - title: M.S. in Control Science and Engineering
       institution: Xi'an Jiaotong University
       year: 2015 - 2018
@@ -71,38 +71,38 @@
        - Communication & Interaction between Drone and Ground Robots
        - AR/VR driven by Vision of Robots (e.g. Drone)
 
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+- title: Technical Skills
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items: 
-#         - Nobel Prize in Physics 
-#         - Matteucci Medal
-#     - year: 2029
-#       items: 
-#         - Max Planck Medal
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 1921
+      items: 
+        - Nobel Prize in Physics 
+        - Matteucci Medal
+    - year: 2029
+      items: 
+        - Max Planck Medal
 
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items: 
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
 
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
 

@@ -10,6 +10,10 @@ body {
   h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 46px;
   }
+
+  h2 {
+    margin: 0.6em 0 5px;
+  }
 }
 
 body.fixed-top-nav {

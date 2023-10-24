@@ -121,11 +121,18 @@ blockquote {
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    margin-left: 5px;
+    font-family: monospace; 
 
     p {
       display: inline-block;
       margin: 0;
+      font-size: 0.92rem;
+    }
+    p1 {
+      display: inline-block;
+      margin: 0;
+      font-size: 0.92rem
     }
   }
 }
@@ -556,7 +563,6 @@ footer.sticky-bottom {
 
   h2 {
     margin-bottom: 1rem;
-
     span {
       font-size: 1.5rem;
     }
