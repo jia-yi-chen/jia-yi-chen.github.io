@@ -94,8 +94,23 @@
   series = {WWW '22},
   preview="toponet.png",
   selected={true},
-
 }
+
+@inproceedings{yu2022deep,
+  title={Deep Semantic Space guided Multi-scale Neural Style Transfer},
+  author={Yu, Jiachen and Jin, Li and Chen, Jiayi and Xiao, Youzi and Tian, Zhiqiang and Lan, Xuguang},
+  pages={1--24},
+  year = {2022},
+  publisher={Springer},
+  url = "https://dl.acm.org/doi/abs/10.1007/s11042-021-11694-2",
+  booktitle = {Multimedia Tools and Applications},
+  abstract = {This work derived from my master's thesis: https://github.com/jia-yi-chen/Illumination-guided-Neural-Style-Transfer},
+  preview="style3d.png",
+  selected={false},
+  code="https://github.com/jia-yi-chen/Painting3dModel",
+  link=""
+}
+
 
 @inproceedings{10.1145/3459637.3482262,
   author = {Chen, Jiayi and Zhang, Aidong},
@@ -136,3 +151,62 @@
   preview="kdd20.png",
   selected={true},
 }
+
+@InProceedings{10.1007/978-981-13-7983-3_14,
+  author="Zhang, Yinshu
+  and Chen, Jiayi
+  and Si, Xiangyu
+  and Tian, Zhiqiang
+  and Lan, Xuguang",
+  editor="Sun, Fuchun
+  and Liu, Huaping
+  and Hu, Dewen",
+  title="Image Artistic Style Transfer Based on Color Distribution Preprocessing",
+  booktitle="Cognitive Systems and Signal Processing",
+  year="2019",
+  publisher="Springer Singapore",
+  address="Singapore",
+  pages="155--164",
+  abstract="Style transfer is an increasingly popular field that can capture the styles of a particular artwork and use them to synthesize a new image with specific content. Previous NST algorithms have the limitation to transfer styles to correct regions in the output image. Therefore, some regions in the output image have deformed structures of the source image. In this paper, we propose a color preprocessing-based neural style transfer method to overcome the limitation. To reduce impacts caused by color differences between source image and style, we propose three models based on a color iterative distribution transform algorithm (IDT). The first one is named original color-preprocessed (OCp) model, which uses IDT to transform the color probability density function (PDF) of source image into that of style image. The second one is named exposure-corrected original color-preprocessed (EC-OCp) model, which adds an automatic detail-enhanced exposure correction module before OCp model. When source image is underexposed, EC-OCp model can achieve better results than OCp model. The third one is style color-preprocessed (SCp) model. It uses IDT to transform the color PDF of style image into that of source image. The original structures are well protected in the output image. According to experiments, the proposed models are robust to the source images with more conditions. Therefore, they have more usage values than the original method.",
+  isbn="978-981-13-7983-3",
+  selected={false},
+}
+
+@InProceedings{10.1007/978-981-13-7986-4_17,
+  author="Yu, Jiachen
+  and Jin, Li
+  and Chen, Jiayi
+  and Tian, Zhiqiang
+  and Lan, Xuguang",
+  editor="Sun, Fuchun
+  and Liu, Huaping
+  and Hu, Dewen",
+  title="Multi-scale Neural Style Transfer Based on Deep Semantic Matching",
+  booktitle="Cognitive Systems and Signal Processing",
+  year="2019",
+  publisher="Springer Singapore",
+  address="Singapore",
+  pages="185--196",
+  abstract="Existing Neural Style Transfer (NST) algorithms do not migrate styles well to a reasonable location where the output image can render the correct spatial structure of the object being painted. We propose a deep semantic matching-based multi-scale (DSM-MS) neural style transfer method, which can achieve the reasonable transfer of styles guided by the prior spatial segmentation and illumination information of input images. First, according to real drawing process, before an artist decides how to paint a stroke, he/she needs to observe and then understand subjects, segmenting space into different regions, objects and structures and analyzing the illumination conditions on each object. To simulate the two visual cognition processes, we define a deep semantic space (DSS) and propose a method for calculating DSSs using manual image segmentation, automatic illumination estimation and convolutional neural network (CNN). Second, we define a loss function, named deep semantic loss, which uses DSS to guide reasonable style transfer. Third, we propose a multi-scale optimization strategy for improving the efficiency of our method. Finally, we achieve an interdisciplinary application of our method for the first time--painterly rendering 3D scenes by neural style transfer. The experimental results show that our method can synthesize images in better original structures, with more reasonable placement of each styles and visual aesthetic feeling.",
+  isbn="978-981-13-7986-4",
+  selected={false},
+}
+
+@INPROCEEDINGS{7813345,
+  author={Chen, Jiayi and Lan, Xuguang and Yang, Meng},
+  booktitle={2016 IEEE 18th International Workshop on Multimedia Signal Processing (MMSP)}, 
+  title={Efficient detail-enhanced exposure correction based on auto-fusion for LDR image}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={1-5},
+  abstract={We consider the problem of how to simultaneously and well correct the over- and under-exposure regions in a single low dynamic range (LDR) image. Recent methods typically focus on global visual quality but cannot well-correct much potential details in extremely wrong exposure areas, and some are also time consuming. In this paper, we propose a fast and detail-enhanced correction method based on automatic fusion which combines a pair of complementarily corrected images, i.e. backlight & highlight correction images (BCI &HCI). A BCI with higher visual quality in details is quickly produced based on a proposed faster multi-scale retinex algorithm; meanwhile, a HCI is generated through contrast enhancement method. Then, an automatic fusion algorithm is proposed to create a color-protected exposure mask for fusing BCI and HCI when avoiding potential artifacts on the boundary. The experiment results show that the proposed method can fast correct over/under-exposed regions with higher detail quality than existing methods.},
+  keywords={},
+  doi={10.1109/MMSP.2016.7813345},
+  ISSN={2473-3628},
+  month={Sep.},
+  selected={false},
+}
+
+
+
