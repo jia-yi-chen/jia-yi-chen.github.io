@@ -98,7 +98,7 @@ body {
   background-color: var(--global-bg-color);
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
-  scroll-margin-top: 66px;
+  scroll-margin-top: 166px;
 }
 
 body.fixed-top-nav {
@@ -110,7 +110,7 @@ body.sticky-bottom-footer {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 825px;
 }
 
 .profile img {
@@ -160,7 +160,7 @@ body.sticky-bottom-footer {
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 700px;
+  max-width: 400px;
   text-align: center;
   color: #C2C0BF;
   padding: 10px 0;
