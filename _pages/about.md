@@ -20,24 +20,16 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I am a Ph.D. candidate at [University of Virginia](https://www.virginia.edu) majoring in [Computer Science](https://engineering.virginia.edu/departments/computer-science). 
+I am a Ph.D. candidate at [University of Virginia](https://www.virginia.edu) majoring in [Computer Science](https://engineering.virginia.edu/departments/computer-science). 
 I am advised by Prof. [Aidong Zhang](https://scholar.google.com/citations?user=O8XxkE4AAAAJ&hl=en).
-My research interests are broadly in Machine Learning and Data Mining, with a focus on Multimodal Machine Learning, Graph Mining, Continual Learning, Federated Learning, and Efficient Knowledge Transfer.
+My research interests are broadly in Machine Learning and Data Mining, with the focuses on Multimodal Machine Learning, Graph Mining, Continual Learning, Federated Learning, and Model-efficient Transfer Learning.
 
-Before joining UVa, I received my Bachelor's degree in Automation Engineering and Master's degree in Control Science and Engineering from [Xi'an Jiaotong University](http://en.hit.edu.cn/). I worked at the Institute of Artificial Intelligence and Robotics during 2015-2018, under the supervision of Prof. [Xuguang Lan](https://www.semanticscholar.org/author/Xuguang-Lan/2498428) and Prof. [Nanning Zheng](https://research.com/u/nanning-zheng), focusing on projects related to Computer Vision, 3D Neural Style Transfer, and Robotics.<!-- I am passionate about exploring AL/ML/CV/NLP potentials in daily lives! -->
+Prior to PhD, I received my Bachelor's degree in Automation Engineering in 2015 and Master's degree in Control Science and Engineering in 2018 from [Xi'an Jiaotong University](http://en.hit.edu.cn/). I was affiliated with the Institute of Artificial Intelligence and Robotics during 2015-2018, under the supervision of Prof. [Nanning Zheng](https://research.com/u/nanning-zheng) and Prof. [Xuguang Lan](https://www.semanticscholar.org/author/Xuguang-Lan/2498428), working on projects related to Computer Vision, 3D Neural Stylistic Rendering, and Robotics.<!-- I am passionate about exploring AL/ML/CV/NLP potentials in daily lives! -->
 
 <!-- Hi! I am currently a fifth-year Ph.D. student at MIT majoring in Electrical Engineering and Computer Science. -->
 <!-- My research focuses on machine learning and developing robust and efficient algorithms driven by clinical problems.
 Applications include motion-robust 3D rendering of the human brain, real-time quality assessment in MR scans as well as pose estimation and motion characterization of fetuses. -->
 
-I also did summer internships at Google in 2022 and 2023, working on Multimodal Few-shot Learning, LLMs, and Model Compression. 
+I also did summer internships at Google in 2022 and 2023, working on Multimodal Few-shot Learning, LLMs, and Efficient Personalization. 
 
-<!-- Prior to MIT, I received my Bachelor's degree from Tsinghua University in 2018. I also spent a summer as a research assistant at Stanford, where I was advised by Prof. [John Pauly](https://web.stanford.edu/~pauly/) and Prof. [Greg Zaharchuk](https://profiles.stanford.edu/greg-zaharchuk). -->
-
-<!--
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.test
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
--->
+<!-- I love Visual Art, Oceanography and Astronomy. I enjoy drawing and painting in my free time! -->
