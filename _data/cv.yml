@@ -17,10 +17,8 @@
       institution: University of Virginia
       year: 2018 - present
     - title: M.S. in Control Science and Engineering
-      institution: Xi'an Jiaotong University
+      institution: Institute of Artificial Intellignece and Robotics @ Xi'an Jiaotong University
       year: 2015 - 2018
-      description:
-       - Research Track @Institute of Artificial Intellignece and Robotics
     - title: B.E. in Automation Engineering
       institution: Xi'an Jiaotong University
       year: 2011 - 2015
@@ -36,26 +34,22 @@
     - title: Research Assistant
       institution: University of Virginia
       year: 2018 - present
-      description:
-       - Multimodal Machine Learning
-       - Graph Mining
-       - Continual Learning
-       - Federated Learning
-       - Model-efficient Transfer Learning
+      # description:
+      #  - <u>Areas:</u> Multimodal Machine Learning, Graph Mining, Continual Learning, Federated Learning, Model-efficient Transfer Learning
     - title: Software Engineer Intern (PhD)
       institution:  Google LLC
       year: Jun - Sep 2023
       description:
-        - Teams - YouTube WatchNext and DeepMind Brain STAR
-        - Mentors - Shuo Yang (YouTube); Zhe Zhao (DeepMind); Hussein Hazimeh (Google Research)
-        - Topology-agnostic Knowledge Inheritance for Improved Knowledge Distillation
+        - <u>Teams:</u> YouTube WatchNext and DeepMind Brain STAR
+        - <u>Mentors:</u> Shuo Yang (YouTube); Zhe Zhao (DeepMind); Hussein Hazimeh (Google Research)
+        - <u>Project:</u> Topology-agnostic Knowledge Inheritance for Improved Distillation
     - title: Software Engineer Intern (PhD)
       institution: Google LLC
       year: Jun - Sep 2022
       description:
-        - Teams - Cloud DocAI and Google Brain
-        - Mentors - Hanjun Dai and Bo Dai (DeepMind); Wei Wei (Cloud DocAI)
-        - Efficient Task-personalized Multimodal Information Extraction
+        - <u>Teams:</u> Cloud DocAI and Google Brain
+        - <u>Mentors:</u> Hanjun Dai and Bo Dai (DeepMind); Wei Wei (Cloud DocAI)
+        - <u>Project:</u> Efficient Task-personalized Multimodal Information Extraction
     - title: Research Assistant
       institution: Xi'an Jiaotong University
       year: 2016 - 2018
@@ -72,37 +66,76 @@
        - AR/VR driven by Vision of Robots (e.g. Drone)
 
 - title: Technical Skills
-  type: time_table
+  type: nested_list
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Programming Languages
+      items: 
+        - Python (7+ years), C++, SQL, Java, Javascript, Matlab
+    - title: Tools & Platforms
+      items:
+        - PyTorch (5+ years), Tensorflow, Jax (2+ years), Flax, Haiku, Gym, Robotic Operating System, etc.
+    - title: Deep Neural Networks
+      items:
+        - Large Language Models (e.g. BERT/ViT/T5/GPT/CLIP/LayoutLM), Graph Neural Networks, Seq2Seq, CNN/LSTM, HyperNetworks, Deep Generative Models (e.g., VAE/GAN/Diffusion), etc.
+
+- title: Research Interests
+  type: list
+  contents:
+    - Multimodal Machine Learning
+    - Graph Mining
+    - Few-shot Learning, Meta-Learning
+    - Lifelong Learning, Federated Learning, Multitask Learning
+    - Model-efficient Transfer Learning
+
+- title: Publication <a href="/publications"> →</a>
+  type: list
+  contents:
+
+- title: Projects <a href="/projects"> →</a>
+  type: list
+  contents:
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2020-2023
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - ACM SIGKDD Student Award
+        - Graduate Fellowships
+    - year: 2018
       items: 
-        - Max Planck Medal
+        - Outstanding Master’s Thesis Award
+    - year: 2017
+      items:         
+        - Won the <i>2nd prize</i> in “3rd Winner Cup of National Graduate Contest on Smart-City Technology and Creative Design”
+    - year: 2016
+      items:         
+        - Industrial Scholarship
+        - Outstanding Graduate Award
+        - Won the <i>4th Place in World Top10</i> in the <a href="https://www.dji.com/newsroom/news/dji-kicks-off-2016-dji-developer-challenge">International Contest of "2016 DJI Drone Developer Challenge</a>” taking place in New York, USA.
+          There were a total of 130+ international participants.
+          The contest was hosted by 
+          <a href="https://www.undp.org/about-us">United Nations Development Programme</a>, <a href="https://www.dji.com/">DJI</a>, and <a href="https://media.ford.com/content/fordmedia/fna/us/en/news/2016/01/05/ford-targets-drone-to-vehicle-technology.html">Ford</a>.
+          A video is available <a href="https://www.youtube.com/watch?v=DIRkzH3cTAM">here.</a>
+    - year: 2015
+      items: 
+        - Won the <i>1st prize</i> in “National Contest on Traffic-Scene Image Understanding”
+    - year: 2011
+      items: Skipped Gaokao (Chinese Nationwide Unified Examination for Admissions to General Universities and Colleges)
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
 
-- title: Other Interests
+- title: Courses
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Machine Learning and Computer Vision (A+) @XJTU
+    - Natural Language Processing (A+) @UVa
+    - Reinforcement Learning (A+) @UVa
+    - Database Systems (A) @UVa
+    - Graph Mining (A+) @UVa
+    - Statistical Learning and Graphical Models (A) @XJTU
+    - Computer Graphics (A+) @XJTU
+    - Software Artifacts (A) @UVa
+    - Autonomous Mobile Robot (A+) @UVa
+    - Data Structures and Algorithms (A+) @XJTU
+    - Computer Network (A) @XJTU
 
