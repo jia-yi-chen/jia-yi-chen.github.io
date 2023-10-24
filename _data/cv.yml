@@ -10,28 +10,6 @@
     - name: Languages
       value: English, Chinese
 
-- title: Research Interests
-  type: list
-  contents:
-    - Multimodal Machine Learning
-    - Graph Mining
-    - Few-shot Learning, Meta-Learning
-    - Lifelong Learning, Federated Learning, Multitask Learning
-    - Model-efficient Transfer Learning
-
-- title: Technical Skills
-  type: nested_list
-  contents:
-    - title: Programming Languages
-      items: 
-        - Python (7+ years), C++, SQL, Java, Javascript, Matlab
-    - title: Tools & Platforms
-      items:
-        - PyTorch (5+ years), Tensorflow, Jax (2+ years), Flax, Haiku, Gym, Robotic Operating System, etc.
-    - title: Deep Neural Networks
-      items:
-        - Large Language Models (e.g. BERT/ViT/T5/GPT/CLIP/LayoutLM), Graph Neural Networks, Seq2Seq, CNN/LSTM, HyperNetworks, Deep Generative Models (e.g., VAE/GAN/Diffusion), etc.
-
 - title: Education
   type: time_table
   contents:
@@ -87,6 +65,35 @@
        - Communication & Interaction between Drone and Ground Robots
        - AR/VR driven by Vision of Robots (e.g. Drone)
 
+- title: Research Interests
+  type: list
+  contents:
+    - Multimodal Machine Learning
+    - Graph Mining
+    - Few-shot Learning, Meta-Learning
+    - Lifelong Learning, Federated Learning, Multitask Learning
+    - Model-efficient Transfer Learning
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items: 
+        - Python (7+ years), C++, SQL, Java, Javascript, Matlab
+    - title: Tools & Platforms
+      items:
+        - PyTorch (5+ years), Tensorflow, Jax (2+ years), Flax, Haiku, Gym, Robotic Operating System, etc.
+    - title: Deep Neural Networks
+      items:
+        - Large Language Models (e.g. BERT/ViT/T5/GPT/CLIP/LayoutLM), Graph Neural Networks, Seq2Seq, CNN/LSTM, HyperNetworks, Deep Generative Models (e.g., VAE/GAN/Diffusion), etc.
+
+- title: Publications <a href="/publications"> →</a>
+  type: list
+  contents:
+
+- title: Projects <a href="/projects"> →</a>
+  type: list
+  contents:
 # - title: Skills
 #   type: nested_list
 #   contents:
@@ -131,13 +138,6 @@
     - year: 2011
       items: Skipped Gaokao (Chinese Nationwide Unified Examination for Admissions to General Universities and Colleges)
 
-- title: Publications <a href="/publications"> →</a>
-  type: list
-  contents:
-
-- title: Projects <a href="/projects"> →</a>
-  type: list
-  contents:
 
 - title: Services
   type: nested_list
