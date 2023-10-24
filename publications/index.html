@@ -85,11 +85,11 @@
               
 
               <!-- Other pages -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/publications/">publications<span class="sr-only">(current)</span></a>
-              </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/cv/">cv</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="/publications/">publications<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/projects/">projects</a>
@@ -128,7 +128,7 @@
 
     <header class="post-header">
         <h1 class="post-title">publications</h1>
-        <p class="post-description"><span class="star">*</span> denotes equal contribution</p>
+        <!-- <p class="post-description"><span class="star">*</span> denotes equal contribution</p> -->
         <!--<p class="post-description"> </p>-->
     </header>
 
@@ -489,6 +489,76 @@
   </div>
 </div>
 </li>
+<li>
+<!-- _layouts/bib.html -->
+<div class="row">
+  <div class="col-sm-2 preview">
+<img id="style3dpng" class="preview z-depth-1 rounded myImg" src="/assets/img/publication_preview/style3d.png"><div id="style3dpng-modal" class="modal2">
+      <span class="closeimg" onclick="document.getElementById('style3dpng-modal').style.display='none'">×</span>
+      <div class="myCaption"></div>
+      <img class="modal-content2" id="style3dpng-modal-img">
+    </div>
+    <script>
+      // Get the modal
+      var modal = document.getElementById("style3dpng-modal");
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('style3dpng');
+      var modalImg = document.getElementById("style3dpng-modal-img");
+      var captionText = modal.getElementsByTagName('div')[0];
+      img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = "";
+      }
+      // Get the <span> element that closes the modal
+      var span = modal.getElementsByTagName('span')[0];
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      }
+      modal.onclick = function () {
+        modal.style.display = "none";
+      }
+    </script>
+</div>
+
+  <!-- Entry bib key -->
+  <div id="yu2022deep" class="col-sm-8 col-md-9">
+    <!-- Title -->
+    <div class="title">Deep Semantic Space guided Multi-scale Neural Style Transfer</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      Jiachen Yu, Li Jin, <em>Jiayi Chen</em>, Youzi Xiao, Zhiqiang Tian, and Xuguang Lan</div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    <div class="periodical">
+      <em>In Multimedia Tools and Applications</em>, 2022
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a href="https://dl.acm.org/doi/abs/10.1007/s11042-021-11694-2" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">URL</a>
+      <a href="https://github.com/jia-yi-chen/Painting3dModel" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+    </div>
+    
+    <div class="badges">
+    </div>
+
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>This work derived from my master’s thesis: https://github.com/jia-yi-chen/Illumination-guided-Neural-Style-Transfer</p>
+    </div>
+  </div>
+</div>
+</li>
 </ol>
 
   <h2 class="year">2021</h2>
@@ -634,10 +704,130 @@
 </li></ol>
 
   <h2 class="year">2019</h2>
-  <ol class="bibliography"></ol>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+<div class="row">
+  <div class="col-sm-2 abbr"></div>
+
+  <!-- Entry bib key -->
+  <div id="10.1007/978-981-13-7983-3_14" class="col-sm-8 col-md-9">
+    <!-- Title -->
+    <div class="title">Image Artistic Style Transfer Based on Color Distribution Preprocessing</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      Yinshu Zhang, <em>Jiayi Chen</em>, Xiangyu Si, Zhiqiang Tian, and Xuguang Lan</div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    <div class="periodical">
+      <em>In Cognitive Systems and Signal Processing</em>, 2019
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    </div>
+    
+    <div class="badges">
+    </div>
+
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Style transfer is an increasingly popular field that can capture the styles of a particular artwork and use them to synthesize a new image with specific content. Previous NST algorithms have the limitation to transfer styles to correct regions in the output image. Therefore, some regions in the output image have deformed structures of the source image. In this paper, we propose a color preprocessing-based neural style transfer method to overcome the limitation. To reduce impacts caused by color differences between source image and style, we propose three models based on a color iterative distribution transform algorithm (IDT). The first one is named original color-preprocessed (OCp) model, which uses IDT to transform the color probability density function (PDF) of source image into that of style image. The second one is named exposure-corrected original color-preprocessed (EC-OCp) model, which adds an automatic detail-enhanced exposure correction module before OCp model. When source image is underexposed, EC-OCp model can achieve better results than OCp model. The third one is style color-preprocessed (SCp) model. It uses IDT to transform the color PDF of style image into that of source image. The original structures are well protected in the output image. According to experiments, the proposed models are robust to the source images with more conditions. Therefore, they have more usage values than the original method.</p>
+    </div>
+  </div>
+</div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+<div class="row">
+  <div class="col-sm-2 abbr"></div>
+
+  <!-- Entry bib key -->
+  <div id="10.1007/978-981-13-7986-4_17" class="col-sm-8 col-md-9">
+    <!-- Title -->
+    <div class="title">Multi-scale Neural Style Transfer Based on Deep Semantic Matching</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      Jiachen Yu, Li Jin, <em>Jiayi Chen</em>, Zhiqiang Tian, and Xuguang Lan</div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    <div class="periodical">
+      <em>In Cognitive Systems and Signal Processing</em>, 2019
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    </div>
+    
+    <div class="badges">
+    </div>
+
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Existing Neural Style Transfer (NST) algorithms do not migrate styles well to a reasonable location where the output image can render the correct spatial structure of the object being painted. We propose a deep semantic matching-based multi-scale (DSM-MS) neural style transfer method, which can achieve the reasonable transfer of styles guided by the prior spatial segmentation and illumination information of input images. First, according to real drawing process, before an artist decides how to paint a stroke, he/she needs to observe and then understand subjects, segmenting space into different regions, objects and structures and analyzing the illumination conditions on each object. To simulate the two visual cognition processes, we define a deep semantic space (DSS) and propose a method for calculating DSSs using manual image segmentation, automatic illumination estimation and convolutional neural network (CNN). Second, we define a loss function, named deep semantic loss, which uses DSS to guide reasonable style transfer. Third, we propose a multi-scale optimization strategy for improving the efficiency of our method. Finally, we achieve an interdisciplinary application of our method for the first time–painterly rendering 3D scenes by neural style transfer. The experimental results show that our method can synthesize images in better original structures, with more reasonable placement of each styles and visual aesthetic feeling.</p>
+    </div>
+  </div>
+</div>
+</li>
+</ol>
 
   <h2 class="year">2016</h2>
-  <ol class="bibliography"></ol>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+<div class="row">
+  <div class="col-sm-2 abbr"></div>
+
+  <!-- Entry bib key -->
+  <div id="7813345" class="col-sm-8 col-md-9">
+    <!-- Title -->
+    <div class="title">Efficient detail-enhanced exposure correction based on auto-fusion for LDR image</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      <em>Jiayi Chen</em>, Xuguang Lan, and Meng Yang</div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    <div class="periodical">
+      <em>In 2016 IEEE 18th International Workshop on Multimedia Signal Processing (MMSP)</em>
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    </div>
+    
+    <div class="badges">
+    </div>
+
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>We consider the problem of how to simultaneously and well correct the over- and under-exposure regions in a single low dynamic range (LDR) image. Recent methods typically focus on global visual quality but cannot well-correct much potential details in extremely wrong exposure areas, and some are also time consuming. In this paper, we propose a fast and detail-enhanced correction method based on automatic fusion which combines a pair of complementarily corrected images, i.e. backlight &amp; highlight correction images (BCI &amp;HCI). A BCI with higher visual quality in details is quickly produced based on a proposed faster multi-scale retinex algorithm; meanwhile, a HCI is generated through contrast enhancement method. Then, an automatic fusion algorithm is proposed to create a color-protected exposure mask for fusing BCI and HCI when avoiding potential artifacts on the boundary. The experiment results show that the proposed method can fast correct over/under-exposed regions with higher detail quality than existing methods.</p>
+    </div>
+  </div>
+</div>
+</li></ol>
 
 
 </div>
