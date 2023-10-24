@@ -20,9 +20,7 @@
       institution: Xi'an Jiaotong University
       year: 2015 - 2018
       description:
-       - Research Track 
-       - Affiliation @Institute of Artificial Intellignece and Robotics
-       - Joined a Startup team (MachInsight) from 2015 to 2016, focusing on dealing with (1) Computer Vision-related projects for industry; (2) Drone (a type of Autonomous Aerial Robot) related software product driven by Computer Vision; and (3) Augmented Reality related product.
+       - Research Track @Institute of Artificial Intellignece and Robotics
     - title: B.E. in Automation Engineering
       institution: Xi'an Jiaotong University
       year: 2011 - 2015
@@ -30,40 +28,48 @@
       institution: Xi'an Jiaotong University
       year: 2009 - 2011
       description:
-       - A special program in China that selects students (below 15) national wide who have showed talents for learning science and technology in Middle school.
+       - A special program in China that selects students (below 15) national wide who have showed talents for learning science and technology in Middle schools.
 
-- title: Experience
+- title: Work Experience
   type: time_table
   contents:
     - title: Research Assistant
-      institution: Massachusetts Institute of Technology
+      institution: University of Virginia
       year: 2018 - present
       description:
-        - 2D-to-3D reconstruction
-        - Image quality assessment
-        - 3D pose estimation pipeline for fetal MRI
-    - title: Machine Learning Engineer Intern
-      institution: Instagram Reels Core Ranking @ Meta
-      year: May - Aug 2022
+       - Multimodal Machine Learning
+       - Graph Mining
+       - Continual Learning
+       - Federated Learning
+       - Model-efficient Transfer Learning
+    - title: Software Engineer Intern (PhD)
+      institution:  Google LLC
+      year: Jun - Sep 2023
       description:
-        - Mitigated short video bias in Reels
-    - title: Software Engineer Intern
-      institution: Adwords Insights Team @ Google
-      year: Jun - Aug 2021
+        - Teams - YouTube WatchNext and DeepMind Brain STAR
+        - Mentors - Shuo Yang (YouTube); Zhe Zhao (DeepMind); Hussein Hazimeh (Google Research)
+        - Topology-agnostic Knowledge Inheritance for Improved Knowledge Distillation
+    - title: Software Engineer Intern (PhD)
+      institution: Google LLC
+      year: Jun - Sep 2022
       description:
-        - Improved keyword classification in search ads
-        - Developed algorithms to detect the cold start of bidding strategies
-    - title: Research Scientist Intern
-      institution: United Imaging Intellignece America
-      year: Jun - Aug 2020
-      description:
-        - Multi-modal image registration with neural ODE
-        - Differentiable Digitally Reconstructed Radiograph (DRR)
+        - Teams - Cloud DocAI and Google Brain
+        - Mentors - Hanjun Dai and Bo Dai (DeepMind); Wei Wei (Cloud DocAI)
+        - Efficient Task-personalized Multimodal Information Extraction
     - title: Research Assistant
-      institution: Stanford University
-      year: Jun - Aug 2017
+      institution: Xi'an Jiaotong University
+      year: 2016 - 2018
       description:
-        - Low dose PET reconstruction with deep learning
+        - 3D Neural Stylistic Rendering
+        - Vision-guided Robotics
+    - title: Startup
+      institution: MachInsight
+      year: 2015 - 2016
+      description:
+       - Computer Vision-related Projects
+       - Autonomous Drone (a type of aerial robot)
+       - Communication & Interaction between Drone and Ground Robots
+       - AR/VR driven by Vision of Robots (e.g. Drone)
 
 # - title: Open Source Projects
 #   type: time_table
