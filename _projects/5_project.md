@@ -2,7 +2,7 @@
 layout: page
 title: Human-like Car Following
 time: Fall 2020
-affiliation: University of Virginia
+affiliation: 
 description: 
 img: assets/img/projects/carfollowing.jpg
 importance: 8

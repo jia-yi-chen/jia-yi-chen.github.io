@@ -3,7 +3,7 @@ layout: page
 title: Autonomous Drone for Search & Rescue
 time: 12/2015 – 12/2016
 affiliation: 
-description: Won the 4th Place in 2016 International Contest of DJI Developer Challenge
+description: <b>*</b>Won the 4th Place in 2016 International Contest of DJI Developer Challenge
 img: assets/img/projects/drone1.png
 redirect: 
 importance: 3

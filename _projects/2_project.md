@@ -10,7 +10,7 @@ category: Graphics/Vision
 ---
 
 
-#### Master's Thesis:
+### Master's Thesis:
 
 Time: 03/2017 – 08/2018
 
@@ -19,15 +19,15 @@ Advisor: Xuguang Lan, Nanning Zheng
 Affiliation: Institute of Artificial Intelligence and Robotics @ Xi'an Jiaotong University
 
 
-#### Project: Knowledge-guided Neural Stylistic Rendering for 3D Scene Models
+### Title: Spatially-rational Knowledge-guided Neural Stylization
 
-Studied human knowledge-guided neural style transfer, focusing on enhancing the *Spatial Rationality* of generated images (i.e., an illusion of spatial logic and ordering). There are 2 target tasks, where traditional methods fail to produce robust spatial rationality:
+The reseach aims to leverage human knowledge to improve neural style transfer, focusing on enhancing the *Spatial Rationality* of generated images (i.e., an illusion of spatial logic and ordering). There are 2 target tasks, where traditional methods fail to produce robust spatial rationality:
 - Task 1: 3D model non-photorealistic rendering
 - Task 2: Low-quality Image non-photorealistic enhancement
 
 To address these tasks, this project aims to *simulates how artists harness skills to understand and reproduce a 3D scene*. For example, we can consider the underlying geometric structures or the human knowledge of disentangled lighting & shallow layers in the target 3d scene or image scene.  We proposed an *illumination-guided deep alignment* method, which leverages *Lighting Path Expression* and *PatchMatch* into CNN architecture to achieve the goals.
 
-#### Data:
+### Data Creation:
 
 Created a 2D-3D dataset, including 3D models rendered by multiple types of lighting (by Maya), 2D photos annotated by lighting and segmentation (by Photoshop and Matlab), and a hand-drawn stylistic material for testing (CorelPainter).
 
@@ -43,7 +43,7 @@ Created a 2D-3D dataset, including 3D models rendered by multiple types of light
     </div>
 </div>
 
-#### Some Results:
+### Some Results:
 
 <div class="row">
     <div class="col-sm mt-4 mt-md-0">

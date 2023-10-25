@@ -2,7 +2,7 @@
 layout: page
 title: TurtleBot Autonomous Security Guard
 time: Fall 2018
-affiliation: University of Virginia
+affiliation: 
 description: 
 img: assets/img/projects/tbot1.png
 importance: 6
@@ -11,7 +11,7 @@ category: Robotics/RL
 
 
 ### Project: 
-Built an autonomous framework on TurtleBot to act as a human security guard. Tasks include:
+Built an autonomous framework on TurtleBot to act as a human security guard. 
 - Wandering in the environment and building a map
 - Finding AprilTag targets
 - Approaching each target
