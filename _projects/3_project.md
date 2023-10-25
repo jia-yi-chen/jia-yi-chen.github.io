@@ -36,7 +36,7 @@ This project is centered around a theoretical search-and-rescue mission. The tas
           The contest was hosted by 
           <a href="https://www.undp.org/about-us">United Nations Development Programme</a>, <a href="https://www.dji.com/">DJI</a>, and <a href="https://media.ford.com/content/fordmedia/fna/us/en/news/2016/01/05/ford-targets-drone-to-vehicle-technology.html">Ford</a>.
           A video is available <a href="https://www.youtube.com/watch?v=DIRkzH3cTAM">here.</a>
-- Further extend the demo to another project that involves communication & interaction between Drone and Ground Vechile, allowing a collaboration between aerial autonomous robots and ground autonomous robots.
+- Later, we extend the demo to another project that involves communication & interaction between Drone and Ground Vechile, allowing a collaboration between aerial autonomous robots and ground autonomous robots.
  
 #### Related Skills:
 - 3D Geometry in Computer Vision
