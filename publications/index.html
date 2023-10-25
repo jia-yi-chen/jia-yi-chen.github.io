@@ -546,7 +546,7 @@
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       <a href="https://dl.acm.org/doi/abs/10.1007/s11042-021-11694-2" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">URL</a>
-      <a href="https://github.com/jia-yi-chen/Painting3dModel" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+      <a href="https://github.com/jia-yi-chen/Illumination-guided-Neural-Style-Transfer" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
     </div>
     
     <div class="badges">
@@ -554,7 +554,7 @@
 
     <!-- Hidden abstract block -->
     <div class="abstract hidden">
-      <p>This work derived from my master’s thesis: https://github.com/jia-yi-chen/Illumination-guided-Neural-Style-Transfer</p>
+      <p>This work derived from my master’s thesis. Related repositories: https://github.com/jia-yi-chen/Painting3dModel</p>
     </div>
   </div>
 </div>
@@ -708,47 +708,35 @@
 <li>
 <!-- _layouts/bib.html -->
 <div class="row">
-  <div class="col-sm-2 abbr"></div>
-
-  <!-- Entry bib key -->
-  <div id="10.1007/978-981-13-7983-3_14" class="col-sm-8 col-md-9">
-    <!-- Title -->
-    <div class="title">Image Artistic Style Transfer Based on Color Distribution Preprocessing</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      Yinshu Zhang, <em>Jiayi Chen</em>, Xiangyu Si, Zhiqiang Tian, and Xuguang Lan</div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    <div class="periodical">
-      <em>In Cognitive Systems and Signal Processing</em>, 2019
+  <div class="col-sm-2 preview">
+<img id="mythesisjpg" class="preview z-depth-1 rounded myImg" src="/assets/img/publication_preview/mythesis.jpg"><div id="mythesisjpg-modal" class="modal2">
+      <span class="closeimg" onclick="document.getElementById('mythesisjpg-modal').style.display='none'">×</span>
+      <div class="myCaption"></div>
+      <img class="modal-content2" id="mythesisjpg-modal-img">
     </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-    </div>
-    
-    <div class="badges">
-    </div>
-
-    <!-- Hidden abstract block -->
-    <div class="abstract hidden">
-      <p>Style transfer is an increasingly popular field that can capture the styles of a particular artwork and use them to synthesize a new image with specific content. Previous NST algorithms have the limitation to transfer styles to correct regions in the output image. Therefore, some regions in the output image have deformed structures of the source image. In this paper, we propose a color preprocessing-based neural style transfer method to overcome the limitation. To reduce impacts caused by color differences between source image and style, we propose three models based on a color iterative distribution transform algorithm (IDT). The first one is named original color-preprocessed (OCp) model, which uses IDT to transform the color probability density function (PDF) of source image into that of style image. The second one is named exposure-corrected original color-preprocessed (EC-OCp) model, which adds an automatic detail-enhanced exposure correction module before OCp model. When source image is underexposed, EC-OCp model can achieve better results than OCp model. The third one is style color-preprocessed (SCp) model. It uses IDT to transform the color PDF of style image into that of source image. The original structures are well protected in the output image. According to experiments, the proposed models are robust to the source images with more conditions. Therefore, they have more usage values than the original method.</p>
-    </div>
-  </div>
+    <script>
+      // Get the modal
+      var modal = document.getElementById("mythesisjpg-modal");
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('mythesisjpg');
+      var modalImg = document.getElementById("mythesisjpg-modal-img");
+      var captionText = modal.getElementsByTagName('div')[0];
+      img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = "";
+      }
+      // Get the <span> element that closes the modal
+      var span = modal.getElementsByTagName('span')[0];
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      }
+      modal.onclick = function () {
+        modal.style.display = "none";
+      }
+    </script>
 </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-<div class="row">
-  <div class="col-sm-2 abbr"></div>
 
   <!-- Entry bib key -->
   <div id="10.1007/978-981-13-7986-4_17" class="col-sm-8 col-md-9">
@@ -773,6 +761,7 @@
     <!-- Links/Buttons -->
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a href="https://link.springer.com/chapter/10.1007/978-981-13-7986-4_17" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">URL</a>
     </div>
     
     <div class="badges">
@@ -780,7 +769,78 @@
 
     <!-- Hidden abstract block -->
     <div class="abstract hidden">
-      <p>Existing Neural Style Transfer (NST) algorithms do not migrate styles well to a reasonable location where the output image can render the correct spatial structure of the object being painted. We propose a deep semantic matching-based multi-scale (DSM-MS) neural style transfer method, which can achieve the reasonable transfer of styles guided by the prior spatial segmentation and illumination information of input images. First, according to real drawing process, before an artist decides how to paint a stroke, he/she needs to observe and then understand subjects, segmenting space into different regions, objects and structures and analyzing the illumination conditions on each object. To simulate the two visual cognition processes, we define a deep semantic space (DSS) and propose a method for calculating DSSs using manual image segmentation, automatic illumination estimation and convolutional neural network (CNN). Second, we define a loss function, named deep semantic loss, which uses DSS to guide reasonable style transfer. Third, we propose a multi-scale optimization strategy for improving the efficiency of our method. Finally, we achieve an interdisciplinary application of our method for the first time–painterly rendering 3D scenes by neural style transfer. The experimental results show that our method can synthesize images in better original structures, with more reasonable placement of each styles and visual aesthetic feeling.</p>
+      <p>Existing Neural Style Transfer (NST) algorithms do not migrate styles well to a reasonable location where the output image can render the correct spatial structure of the object being painted. We propose a deep semantic matching-based multi-scale (DSM-MS) neural style transfer method, which can achieve the reasonable transfer of styles guided by the prior spatial segmentation and illumination information of input images. First, according to real drawing process, before an artist decides how to paint a stroke, he/she needs to observe and then understand subjects, segmenting space into different regions, objects and structures and analyzing the illumination conditions on each object. To simulate the two visual cognition processes, we define a deep semantic space (DSS) and propose a method for calculating DSSs using manual image segmentation, automatic illumination estimation and convolutional neural network (CNN). Second, we define a loss function, named deep semantic loss, which uses DSS to guide reasonable style transfer. Third, we propose a multi-scale optimization strategy for improving the efficiency of our method. Finally, we achieve an interdisciplinary application of our method for the first time–painterly rendering 3D scenes by neural style transfer. The experimental results show that our method can synthesize images in better original structures, with more reasonable placement of each styles and visual aesthetic feeling. 
+  
+  *This work derived from my master’s thesis. Related repositories: https://github.com/jia-yi-chen/Painting3dModel. A small 3D-to-2D dataset created using Corel Painter and Maya3D: https://github.com/jia-yi-chen/3dModel-to-2dArt-Dataset</p>
+    </div>
+  </div>
+</div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+<div class="row">
+  <div class="col-sm-2 preview">
+<img id="mythesis2jpg" class="preview z-depth-1 rounded myImg" src="/assets/img/publication_preview/mythesis2.jpg"><div id="mythesis2jpg-modal" class="modal2">
+      <span class="closeimg" onclick="document.getElementById('mythesis2jpg-modal').style.display='none'">×</span>
+      <div class="myCaption"></div>
+      <img class="modal-content2" id="mythesis2jpg-modal-img">
+    </div>
+    <script>
+      // Get the modal
+      var modal = document.getElementById("mythesis2jpg-modal");
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('mythesis2jpg');
+      var modalImg = document.getElementById("mythesis2jpg-modal-img");
+      var captionText = modal.getElementsByTagName('div')[0];
+      img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = "";
+      }
+      // Get the <span> element that closes the modal
+      var span = modal.getElementsByTagName('span')[0];
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      }
+      modal.onclick = function () {
+        modal.style.display = "none";
+      }
+    </script>
+</div>
+
+  <!-- Entry bib key -->
+  <div id="10.1007/978-981-13-7983-3_14" class="col-sm-8 col-md-9">
+    <!-- Title -->
+    <div class="title">Image Artistic Style Transfer Based on Color Distribution Preprocessing</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      Yinshu Zhang, <em>Jiayi Chen</em>, Xiangyu Si, Zhiqiang Tian, and Xuguang Lan</div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    <div class="periodical">
+      <em>In Cognitive Systems and Signal Processing</em>, 2019
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a href="https://link.springer.com/chapter/10.1007/978-981-13-7983-3_14" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">URL</a>
+    </div>
+    
+    <div class="badges">
+    </div>
+
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Work derived from my master’s thesis. Related repositories: https://github.com/jia-yi-chen/Painting3dModel. Style transfer is an increasingly popular field that can capture the styles of a particular artwork and use them to synthesize a new image with specific content. Previous NST algorithms have the limitation to transfer styles to correct regions in the output image. Therefore, some regions in the output image have deformed structures of the source image. In this paper, we propose a color preprocessing-based neural style transfer method to overcome the limitation. To reduce impacts caused by color differences between source image and style, we propose three models based on a color iterative distribution transform algorithm (IDT). The first one is named original color-preprocessed (OCp) model, which uses IDT to transform the color probability density function (PDF) of source image into that of style image. The second one is named exposure-corrected original color-preprocessed (EC-OCp) model, which adds an automatic detail-enhanced exposure correction module before OCp model. When source image is underexposed, EC-OCp model can achieve better results than OCp model. The third one is style color-preprocessed (SCp) model. It uses IDT to transform the color PDF of style image into that of source image. The original structures are well protected in the output image. According to experiments, the proposed models are robust to the source images with more conditions. Therefore, they have more usage values than the original method.</p>
     </div>
   </div>
 </div>
@@ -816,6 +876,7 @@
     <!-- Links/Buttons -->
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a href="https://ieeexplore.ieee.org/document/7813345" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">URL</a>
     </div>
     
     <div class="badges">
@@ -842,7 +903,7 @@
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2023 Jiayi  Chen. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: October 24, 2023.
+Last updated: October 25, 2023.
       </div>
     </footer>
 
