@@ -24,7 +24,8 @@ Affiliation: Institute of Artificial Intelligence and Robotics @ Xi'an Jiaotong 
 Studied human knowledge-guided neural style transfer, focusing on improving the illusion of space in generated images by simulating how artists harness skills to understand and reproduce a 3D scene--that is, leveraging geometric structures or the disentanglement of lighting and shallow layers. There are 2 target tasks:
 - Task 1: 3D model non-photorealistic rendering
 - Task 2: Low-quality Image non-photorealistic enhancement
-To achieve the two tasks, proposed an illumination-guided deep alignment method based on CNN, Lighting Path Expression, and PatchMatch.
+
+We proposed an *illumination-guided deep alignment* method, which adaopts *Lighting Path Expression* and *PatchMatch* in CNN architecture to achieve the two tasks.
 
 #### Data:
 
