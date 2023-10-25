@@ -22,11 +22,12 @@ This project is centered around a theoretical search-and-rescue mission. The tas
 
 #### Contributions:
 
-- Target Detection: developed a real-time Vision-based module (including Object detection and 3D localization) on Drone’s autonomous navigation system. Real-time 3D poses of objects are estimated from 2D images using the real-time camera gimbal data based on Homography and 3D Geometry.
+- Target Detection module: developed a real-time Vision-based module (including Object detection and 3D localization) on Drone’s autonomous navigation system. Real-time 3D poses of objects are estimated from 2D images using the real-time camera gimbal data based on Homography and 3D Geometry.
 - Go-to-goal module: developed an autonomous tracking-and-landing module for autonomous landing on a still/moving vehicle. 
-- Designed a framework to manage multimodal sensors and real-time feedbacks during navigation
-- Setup testing environments
-- Conducted 100+ outdoor tests with real trucks, tuning the hyperparameters to guarantee drone’s landing safety.
+- Developed a framework to manage multimodal sensors and real-time feedbacks collected duing Drone's navigation
+- Information display on APPs
+- Designed and Setup the testing environments (collaborating with the team) to evaluate the Drone's mission.
+- Conducted 100+ outdoor tests using Matrice 100 and real trucks (collaborating with the team), tuning the hyperparameters to guarantee drone’s landing safety.
 
 #### Accomplishment: 
 - Achieved ≤10cm autonomous landing accuracy. 
@@ -69,6 +70,6 @@ Instructor:  Nanning Zheng (Institute of Artificial Intelligence and Robotics @ 
 
 Affiliation: Xi'an Jiaotong University
 
-Teamates: Yuchan Liu, Junjie Cai, Shitao Chen
+Teamates: Yuchan Liu, Shitao Chen
 
 <!-- #### Drone Vision-guided Autonomous Navigation & Search-and-rescue System -->
