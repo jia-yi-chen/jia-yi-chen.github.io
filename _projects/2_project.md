@@ -21,11 +21,11 @@ Affiliation: Institute of Artificial Intelligence and Robotics @ Xi'an Jiaotong 
 
 #### Project: Knowledge-guided Neural Stylistic Rendering for 3D Scene Models
 
-Studied human knowledge-guided neural style transfer, focusing on improving the illusion of space in generated images by simulating how artists harness skills to understand and reproduce a 3D scene--that is, leveraging geometric structures or the disentanglement of lighting and shallow layers. There are 2 target tasks:
+Studied human knowledge-guided neural style transfer, focusing on enhancing the *Spatial Rationality* of generated images (i.e., an illusion of spatial logic and ordering). There are 2 target tasks, where traditional methods fail to produce robust spatial rationality:
 - Task 1: 3D model non-photorealistic rendering
 - Task 2: Low-quality Image non-photorealistic enhancement
 
-We proposed an *illumination-guided deep alignment* method, which adaopts *Lighting Path Expression* and *PatchMatch* in CNN architecture to achieve the two tasks.
+To address these tasks, this project aims to *simulates how artists harness skills to understand and reproduce a 3D scene*. For example, we can consider the underlying geometric structures or the human knowledge of disentangled lighting & shallow layers in the target 3d scene or image scene.  We proposed an *illumination-guided deep alignment* method, which incorporate *Lighting Path Expression* and *PatchMatch* into CNN architecture, to achieve the two tasks.
 
 #### Data:
 
