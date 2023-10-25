@@ -25,7 +25,7 @@ Studied human knowledge-guided neural style transfer, focusing on enhancing the 
 - Task 1: 3D model non-photorealistic rendering
 - Task 2: Low-quality Image non-photorealistic enhancement
 
-To address these tasks, this project aims to *simulates how artists harness skills to understand and reproduce a 3D scene*. For example, we can consider the underlying geometric structures or the human knowledge of disentangled lighting & shallow layers in the target 3d scene or image scene.  We proposed an *illumination-guided deep alignment* method, which incorporate *Lighting Path Expression* and *PatchMatch* into CNN architecture, to achieve the two tasks.
+To address these tasks, this project aims to *simulates how artists harness skills to understand and reproduce a 3D scene*. For example, we can consider the underlying geometric structures or the human knowledge of disentangled lighting & shallow layers in the target 3d scene or image scene.  We proposed an *illumination-guided deep alignment* method, which leverages *Lighting Path Expression* and *PatchMatch* into CNN architecture to achieve the goals.
 
 #### Data:
 
