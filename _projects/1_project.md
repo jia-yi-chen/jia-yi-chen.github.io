@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Emotional Language Generation
+time: 11/2018 – 03/2019
 description:  Generative AI; Generate language whose semantics or attributes (e.g., emotional tones) can be controlled
 img: assets/img/emotionNLgen.png
 importance: 5
@@ -9,7 +10,7 @@ category: Machine Learning
 
 #### Toward Emotion Controllable Chatbot via Conditional Generative Models
 
-11/2018 – 03/2019
+
 
 - ***Keywords:*** 
   - Natural Language Generation, NLP

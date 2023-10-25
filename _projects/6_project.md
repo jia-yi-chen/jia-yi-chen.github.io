@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Graph Multimodal Federated Learning
+time: 2018-present
 description: Understanding Multimodal Data for Semi-/Unsupervised, Few-shot, and Generative Tasks 
 img:
 importance: 1

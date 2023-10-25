@@ -1,14 +1,27 @@
 ---
 layout: page
-title: Deep Reinforcement Learning for Human-like Car-Following System
-description: Deep Reinforcement Learning for Human-like Car-Following System
-img: 
-importance: 6
+title: Human-like Car Following
+time: Fall 2020
+affiliation: University of Virginia
+description: 
+img: assets/img/projects/carfollowing.jpg
+importance: 8
 category: Robotics/RL
 ---
 
-Fall 2020
 
 
-- Built an actor-critic reinforcement learning framework to learn an optimal car-following behavior from empirical data; 
-- implemented deep deterministic policy gradient algorithm to learn the continuous-control policy network.
+<div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/carfollowing.jpg" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-7 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/carfollowing1.png" title="car following" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+
+#### Deep Reinforcement Learning for Human-like Car-Following System
+- Leveraged an Actor-critic Reinforcement Learning framework to learn personalized car-following behaviors from empirical data
+- Employed [Deep deterministic policy gradient (DDPG)](https://arxiv.org/abs/1509.02971) to learn the continuous-control policy network.
