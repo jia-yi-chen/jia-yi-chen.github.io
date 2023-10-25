@@ -36,15 +36,23 @@ Created a 2D-3D dataset, including 3D models rendered by multiple types of light
     </div>
 </div>
 
-#### Example Results:
 <div class="row">
-    <div class="col-sm mt-4 mt-md-0">
-        {% include figure.html path="assets/img/publication_preview/mythesis.jpg" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/publication_preview/mythesisdata.png" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+#### Some Results:
 
 <div class="row">
     <div class="col-sm mt-4 mt-md-0">
         {% include figure.html path="assets/img/publication_preview/mythesis2.jpg" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-sm mt-4 mt-md-0">
+        {% include figure.html path="assets/img/publication_preview/mythesis.jpg" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
