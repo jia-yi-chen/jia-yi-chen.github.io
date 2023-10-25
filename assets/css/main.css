@@ -605,6 +605,10 @@ footer.sticky-bottom {
 .projects a:hover .card-title {
   color: var(--global-theme-color);
 }
+.projects p {
+  margin-top: 0.2rem;
+  margin-bottom: 0rem;
+}
 .projects .card img {
   width: 100%;
 }
@@ -618,7 +622,7 @@ footer.sticky-bottom {
 }
 .projects .grid-sizer,
 .projects .grid-item {
-  width: 250px;
+  width: 252px;
   margin-bottom: 10px;
 }
 .projects h2.category {
