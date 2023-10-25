@@ -5,7 +5,7 @@ permalink: /projects/
 # description: A growing collection of your cool projects.
 nav: true
 nav_order: 3
-display_categories: [Since 2018, Vision, NLP, Robotics, Graphics]
+display_categories: [Machine Learning, Graphics/Vision, Robotics/RL]
 horizontal: false
 ---
 

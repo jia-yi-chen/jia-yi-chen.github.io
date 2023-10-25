@@ -7,9 +7,11 @@ nav: true
 nav_order: 4
 ---
 
-I enjoy drawing in my free time! 
+I like Visual Art and enjoy Drawing in my free time! 
 
-I also love Marine science and Astronomy. 
+When I have time, I also do readings in Astronomy and Oceanography.
+
+I also enjoy hiking, swimming, and gardening!
 
 
 <!-- I'd like to share some of my drawings here :) -->

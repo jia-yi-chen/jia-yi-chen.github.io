@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Graph Multimodal Federated Learning
+title: Spatiotemporal Collaborative Learning
 description: Understanding Multimodal Data for Semi-/Unsupervised, Few-shot, and Generative Tasks 
 img:
-importance: 1
+importance: 2
 category: Machine Learning
 ---
 
