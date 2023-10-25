@@ -104,10 +104,10 @@
   publisher={Springer},
   url = "https://dl.acm.org/doi/abs/10.1007/s11042-021-11694-2",
   booktitle = {Multimedia Tools and Applications},
-  abstract = {This work derived from my master's thesis: https://github.com/jia-yi-chen/Illumination-guided-Neural-Style-Transfer},
+  abstract = {This work derived from my master's thesis. Related repositories: https://github.com/jia-yi-chen/Painting3dModel},
   preview="style3d.png",
   selected={false},
-  code="https://github.com/jia-yi-chen/Painting3dModel",
+  code="https://github.com/jia-yi-chen/Illumination-guided-Neural-Style-Transfer",
   link=""
 }
 
@@ -152,26 +152,6 @@
   selected={true},
 }
 
-@InProceedings{10.1007/978-981-13-7983-3_14,
-  author="Zhang, Yinshu
-  and Chen, Jiayi
-  and Si, Xiangyu
-  and Tian, Zhiqiang
-  and Lan, Xuguang",
-  editor="Sun, Fuchun
-  and Liu, Huaping
-  and Hu, Dewen",
-  title="Image Artistic Style Transfer Based on Color Distribution Preprocessing",
-  booktitle="Cognitive Systems and Signal Processing",
-  year="2019",
-  publisher="Springer Singapore",
-  address="Singapore",
-  pages="155--164",
-  abstract="Style transfer is an increasingly popular field that can capture the styles of a particular artwork and use them to synthesize a new image with specific content. Previous NST algorithms have the limitation to transfer styles to correct regions in the output image. Therefore, some regions in the output image have deformed structures of the source image. In this paper, we propose a color preprocessing-based neural style transfer method to overcome the limitation. To reduce impacts caused by color differences between source image and style, we propose three models based on a color iterative distribution transform algorithm (IDT). The first one is named original color-preprocessed (OCp) model, which uses IDT to transform the color probability density function (PDF) of source image into that of style image. The second one is named exposure-corrected original color-preprocessed (EC-OCp) model, which adds an automatic detail-enhanced exposure correction module before OCp model. When source image is underexposed, EC-OCp model can achieve better results than OCp model. The third one is style color-preprocessed (SCp) model. It uses IDT to transform the color PDF of style image into that of source image. The original structures are well protected in the output image. According to experiments, the proposed models are robust to the source images with more conditions. Therefore, they have more usage values than the original method.",
-  isbn="978-981-13-7983-3",
-  selected={false},
-}
-
 @InProceedings{10.1007/978-981-13-7986-4_17,
   author="Yu, Jiachen
   and Jin, Li
@@ -187,9 +167,35 @@
   publisher="Springer Singapore",
   address="Singapore",
   pages="185--196",
-  abstract="Existing Neural Style Transfer (NST) algorithms do not migrate styles well to a reasonable location where the output image can render the correct spatial structure of the object being painted. We propose a deep semantic matching-based multi-scale (DSM-MS) neural style transfer method, which can achieve the reasonable transfer of styles guided by the prior spatial segmentation and illumination information of input images. First, according to real drawing process, before an artist decides how to paint a stroke, he/she needs to observe and then understand subjects, segmenting space into different regions, objects and structures and analyzing the illumination conditions on each object. To simulate the two visual cognition processes, we define a deep semantic space (DSS) and propose a method for calculating DSSs using manual image segmentation, automatic illumination estimation and convolutional neural network (CNN). Second, we define a loss function, named deep semantic loss, which uses DSS to guide reasonable style transfer. Third, we propose a multi-scale optimization strategy for improving the efficiency of our method. Finally, we achieve an interdisciplinary application of our method for the first time--painterly rendering 3D scenes by neural style transfer. The experimental results show that our method can synthesize images in better original structures, with more reasonable placement of each styles and visual aesthetic feeling.",
+  abstract="Existing Neural Style Transfer (NST) algorithms do not migrate styles well to a reasonable location where the output image can render the correct spatial structure of the object being painted. We propose a deep semantic matching-based multi-scale (DSM-MS) neural style transfer method, which can achieve the reasonable transfer of styles guided by the prior spatial segmentation and illumination information of input images. First, according to real drawing process, before an artist decides how to paint a stroke, he/she needs to observe and then understand subjects, segmenting space into different regions, objects and structures and analyzing the illumination conditions on each object. To simulate the two visual cognition processes, we define a deep semantic space (DSS) and propose a method for calculating DSSs using manual image segmentation, automatic illumination estimation and convolutional neural network (CNN). Second, we define a loss function, named deep semantic loss, which uses DSS to guide reasonable style transfer. Third, we propose a multi-scale optimization strategy for improving the efficiency of our method. Finally, we achieve an interdisciplinary application of our method for the first time--painterly rendering 3D scenes by neural style transfer. The experimental results show that our method can synthesize images in better original structures, with more reasonable placement of each styles and visual aesthetic feeling. 
+  
+  *This work derived from my master's thesis. Related repositories: https://github.com/jia-yi-chen/Painting3dModel. A small 3D-to-2D dataset created using Corel Painter and Maya3D: https://github.com/jia-yi-chen/3dModel-to-2dArt-Dataset",
   isbn="978-981-13-7986-4",
   selected={false},
+  url="https://link.springer.com/chapter/10.1007/978-981-13-7986-4_17",
+  preview="mythesis.jpg",
+}
+
+@InProceedings{10.1007/978-981-13-7983-3_14,
+  author="Zhang, Yinshu
+  and Chen, Jiayi
+  and Si, Xiangyu
+  and Tian, Zhiqiang
+  and Lan, Xuguang",
+  editor="Sun, Fuchun
+  and Liu, Huaping
+  and Hu, Dewen",
+  title="Image Artistic Style Transfer Based on Color Distribution Preprocessing",
+  booktitle="Cognitive Systems and Signal Processing",
+  year="2019",
+  publisher="Springer Singapore",
+  address="Singapore",
+  pages="155--164",
+  abstract="Work derived from my master's thesis. Related repositories: https://github.com/jia-yi-chen/Painting3dModel. Style transfer is an increasingly popular field that can capture the styles of a particular artwork and use them to synthesize a new image with specific content. Previous NST algorithms have the limitation to transfer styles to correct regions in the output image. Therefore, some regions in the output image have deformed structures of the source image. In this paper, we propose a color preprocessing-based neural style transfer method to overcome the limitation. To reduce impacts caused by color differences between source image and style, we propose three models based on a color iterative distribution transform algorithm (IDT). The first one is named original color-preprocessed (OCp) model, which uses IDT to transform the color probability density function (PDF) of source image into that of style image. The second one is named exposure-corrected original color-preprocessed (EC-OCp) model, which adds an automatic detail-enhanced exposure correction module before OCp model. When source image is underexposed, EC-OCp model can achieve better results than OCp model. The third one is style color-preprocessed (SCp) model. It uses IDT to transform the color PDF of style image into that of source image. The original structures are well protected in the output image. According to experiments, the proposed models are robust to the source images with more conditions. Therefore, they have more usage values than the original method.",
+  isbn="978-981-13-7983-3",
+  selected={false},
+  url="https://link.springer.com/chapter/10.1007/978-981-13-7983-3_14",
+  preview="mythesis2.jpg",
 }
 
 @INPROCEEDINGS{7813345,
@@ -206,6 +212,7 @@
   ISSN={2473-3628},
   month={Sep.},
   selected={false},
+  url="https://ieeexplore.ieee.org/document/7813345",
 }
 
 
