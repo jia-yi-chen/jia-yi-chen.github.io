@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Graph Multimodal Federated Learning
-time: 2018-present
+time: 2020 -- now
 description: Federated Learning; Partial Observation; Mult-modality; Collaborative Learning
 img: assets/img/projects/fedmsplit.png
 importance: 1
