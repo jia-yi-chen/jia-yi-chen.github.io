@@ -13,9 +13,9 @@ category: Graphics/Vision
 
 #### Project:
 
-Directly using the Motion Vectors (MV) from the compressed MPEG-4 video bitstreams, which achieves Fast Human Action Recognition bypassing video decoding that avoids pixel-domain analysis.
-- Proposed to extract MV-based Spatial-Temporal Interest Points from video bitstream instead of from the decoded video
-- Formed motion features using BoW and Fisher Vector and trained classifiers like SVM
+Directly using the Motion Vectors (MV) from the compressed MPEG-4 video bitstreams to achieve fast Human Action Recognition, bypassing video decoding process and avoiding pixel-domain analysis.
+- Extract MV-based Spatial-temporal Interest Points from video bitstream instead of from the decoded video
+- Leverage MV motion features for classification--using traditional BoW and Fisher Vector followed by SVM as the framework.
 
 #### Related Skills:
 - C++
