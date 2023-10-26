@@ -3,7 +3,7 @@ layout: page
 title: Partially-observable Multimodal Learning
 time: 2020, 2021
 tag: 
-description: 
+description: Graph Neural Networks; Meta-learning; Cross Modalities
 img: assets/img/projects/toponet2.png
 importance: 9
 category: Machine Learning
