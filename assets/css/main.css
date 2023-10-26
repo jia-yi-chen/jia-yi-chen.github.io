@@ -288,6 +288,7 @@ blockquote {
 .card .card-title {
   color: var(--global-text-color);
   margin-top: -0.6rem;
+  font-size: 1.8rem;
 }
 .card .card-item {
   width: auto;
@@ -623,7 +624,7 @@ footer.sticky-bottom {
 }
 .projects .grid-sizer,
 .projects .grid-item {
-  width: 252px;
+  width: 255px;
   margin-bottom: 10px;
 }
 .projects h2.category {
