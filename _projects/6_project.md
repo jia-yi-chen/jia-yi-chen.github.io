@@ -2,7 +2,7 @@
 layout: page
 title: Graph Multimodal Federated Learning
 time: 2018-present
-description: Understanding Multimodal Data for Semi-/Unsupervised, Few-shot, and Generative Tasks 
+description: Federated Learning; Partial Observation; Mult-modality; Collaborative Learning
 img: assets/img/projects/fedmsplit.png
 importance: 1
 category: Machine Learning
