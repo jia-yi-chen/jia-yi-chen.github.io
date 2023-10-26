@@ -18,23 +18,25 @@ Using Deep Reinforcement Learning to design a Human-like Car-Following system
 
 
 
-
-<div class="row">
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/carfollowing.jpg" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-7 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/carfollowing1.png" title="car following" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-
 <!-- #### General Information: -->
 #### Related Skills:
 - MDP
 - Bandit
 - Actor-critic Reinforcement Learning
 - Deep deterministic policy gradient
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/carfollowing1.png" title="car following" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/carfollowing2.png" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 <!-- #### General Information: -->
 #### Meta Information: 

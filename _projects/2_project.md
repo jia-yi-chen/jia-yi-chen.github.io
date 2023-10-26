@@ -46,6 +46,14 @@ I manually created a small 2D-to-3D dataset for this project. The dataset includ
     </div>
 </div>
 
+
+### Related Skills
+- Keras, Tensorflow
+- Python
+- Multimedia SKills: Unity3D, Photoshop, Maya, CorelPainter
+
+
+
 ### Some Results:
 
 
@@ -68,5 +76,4 @@ I manually created a small 2D-to-3D dataset for this project. The dataset includ
         {% include figure.html path="assets/img/publication_preview/mythesis2.jpg" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
 

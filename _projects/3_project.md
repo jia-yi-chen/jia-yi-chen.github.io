@@ -10,8 +10,21 @@ importance: 3
 category: Robotics/RL
 ---
 
+
+
+<div class="row">
+    <div class="col-sm mt-4 mt-md-0">
+        {% include figure.html path="assets/img/projects/drone4.png" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-4 mt-md-0">
+        {% include figure.html path="assets/img/projects/drone5.png" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div> 
+
+
 #### Time:
 12/2015 – 12/2016
+
 
 #### Project: 
 
@@ -19,6 +32,8 @@ This project is centered around a theoretical search-and-rescue mission. The tas
 - autonomously take off from a moving vehicle,
 - collect data on the whereabouts of survivors and transmit the information from the disaster site back to the vehicle, then 
 - land autonomously on the same moving vehicle.
+
+
 
 #### Contributions:
 
@@ -28,6 +43,27 @@ This project is centered around a theoretical search-and-rescue mission. The tas
 - Information display on APPs.
 - Designed and Setup the testing environments (collaborating with the team) to evaluate the Drone's mission.
 - Conducted 100+ outdoor tests using Matrice 100 and real trucks (collaborating with the team), tuning the hyperparameters to guarantee drone’s landing safety.
+
+
+<div class="row">
+    <div class="col-sm mt-4 mt-md-0">
+        {% include figure.html path="assets/img/projects/drone_task2.png" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-4 mt-md-0">
+        {% include figure.html path="assets/img/projects/drone2.png" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div> 
+
+<div class="row">
+    <div class="col-sm mt-4 mt-md-0">
+        {% include figure.html path="assets/img/projects/drone_task3.png" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-4 mt-md-0">
+        {% include figure.html path="assets/img/projects/drone3.png" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div> 
+
+
 
 #### Accomplishment: 
 - Achieved ≤10cm autonomous landing accuracy. 
@@ -45,23 +81,6 @@ This project is centered around a theoretical search-and-rescue mission. The tas
 - C++
 - Linux
 
-<div class="row">
-    <div class="col-sm mt-4 mt-md-0">
-        {% include figure.html path="assets/img/projects/drone2.png" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-4 mt-md-0">
-        {% include figure.html path="assets/img/projects/drone3.png" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div> 
-<div class="row">
-    <div class="col-sm mt-4 mt-md-0">
-        {% include figure.html path="assets/img/projects/drone4.png" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-4 mt-md-0">
-        {% include figure.html path="assets/img/projects/drone5.png" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div> 
- 
 
 <!-- #### General Information: -->
 #### Meta Information: 

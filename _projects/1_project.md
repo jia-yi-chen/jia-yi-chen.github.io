@@ -2,19 +2,35 @@
 layout: page
 title: Emotional Language Generation
 time: 11/2018 – 03/2019
-description:  Generative AI; Generate language whose semantics or attributes (e.g., emotional tones) can be controlled
-img: assets/img/emotionNLgen.png
+description:  Language Modeling; VAE; GAN; Reinforcement Learning
+img: assets/img/projects/nlpgen1.png
 importance: 5
 category: Machine Learning
 ---
 
-#### Toward Emotion Controllable Chatbot via Conditional Generative Models
+#### Project: Emotion-controllable Chatbot via Conditional Generative Models
+
+The task aims at generating language whose semantics or attributes (e.g., emotional tones) can be controlled. The methods:
+- Adversarially trained the sequential data generator with Conditional GAN and VAE
+- Using reinforcement learning (RL) to promote the authenticity of the generated language.
+- NOTE: This project was done in 2019 and did not use LLMs.
+
+
+#### Related Skills
+- PyTorch
+- Python
+- (Controllable) Deep Generative Models (e.g. GAN, VAE)
+- Reinforcement Learning
+- Language Models
 
 
 
-- ***Keywords:*** 
-  - Natural Language Generation, NLP
-  - GAN, VAE, Conditional Generative Models
-  - Reinforcement Learning
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/nlpgen1.png" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
+    </div>
+     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/nlpgen2.png" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
-- Adversarially trained the sequential data generator with Conditional GAN and VAE, while using reinforcement learning (RL) to promote the authenticity of the generated language.
