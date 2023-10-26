@@ -4,8 +4,8 @@ title: Partially-observable Multimodal Learning
 time: 2020, 2021
 tag: 
 description: 
-img: assets/img/projects/toponet.png
-importance: 1
+img: assets/img/projects/toponet2.png
+importance: 9
 category: Machine Learning
 ---
 
