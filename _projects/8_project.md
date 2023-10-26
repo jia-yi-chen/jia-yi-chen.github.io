@@ -9,11 +9,12 @@ importance: 2
 category: Machine Learning
 ---
 
-#### Reseach Problems: 
+#### Reseach Project: 
 Study unsupervised Multimodal Spatiotemporal (MST) data analysis, especially focusing on two tasks:
 - Disentangle the underlying dynamic systems of partially observed spatiotemporal interactions between multiple subjects
 - Predict missing data or future data based on learned disentangled representations.
 
+ 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

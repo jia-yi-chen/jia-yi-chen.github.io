@@ -2,10 +2,10 @@
 layout: page
 title: Emotional Language Generation
 time: 11/2018 – 03/2019
-description:  Language Modeling; VAE; GAN; Reinforcement Learning
+description:  Natural Language Generation; VAE; GAN; Language Modeling; Reinforcement Learning
 img: assets/img/projects/nlpgen1.png
 importance: 5
-category: Machine Learning
+category: Natural Language Processing
 ---
 
 #### Project: Emotion-controllable Chatbot via Conditional Generative Models

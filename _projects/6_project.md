@@ -4,12 +4,21 @@ title: Graph Multimodal Federated Learning
 time: 2020 -- now
 description: Federated Learning; Partial Observation; Mult-modality; Collaborative Learning
 img: assets/img/projects/fedmsplit.png
-importance: 1
+importance: 2
 category: Machine Learning
 ---
 
-- Proposed a heterogeneous hyper-node graph for the multi-task multimodal alignment task.
-- Proposed a dynamic graph-based federated learning approach for privacy-preserving personalized task adaptation with heterogeneous domain shifts and modality types.
+#### Research Project:
+
+Leveraging dynamic graph-based federated learning approach for privacy-preserving personalized task adaptation across heterogeneous domains and modality types.
+
+
+
+#### Related Skills:
+- PyTorch
+- Python
+- Graph Neural Networks
+- Federated Learning
 
 
 
