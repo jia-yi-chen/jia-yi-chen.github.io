@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Efficient Human Action Recognition in Video Bitstreams
+title: Human Action Recognition from Video Bitstreams
 time: 12/2014 - 05/2015  
 description: 
 img: assets/img/projects/action.png
