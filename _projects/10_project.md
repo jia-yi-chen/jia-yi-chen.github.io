@@ -3,8 +3,8 @@ layout: page
 title: Spatiotemporal Collaborative Learning
 time: 2023-now
 tag: 
-description: 
+description: Disentanglement; Mixture of Experts; Lifelong Learning
 img: assets/img/projects/stco.png
 importance: 10
-category: 
+category: Machine Learning
 ---
