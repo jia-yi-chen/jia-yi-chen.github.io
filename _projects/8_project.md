@@ -3,7 +3,7 @@ layout: page
 title: Spatiotemporal Causal Disentanglement
 time: 2023
 tag: 
-description: Spatiotemporal Data Analysis; Unsupervised Learning;  VAE; Gaussian Process; Partial Observation; Graph Factorization
+description: Spatiotemporal Data Analysis; Unsupervised Learning;  VAE; Gaussian Process; Graph Factorization
 img: assets/img/projects/hidenmst1.png
 importance: 2
 category: Machine Learning
