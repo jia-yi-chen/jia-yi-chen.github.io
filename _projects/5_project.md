@@ -3,11 +3,19 @@ layout: page
 title: Human-like Car Following
 time: Fall 2020
 affiliation: 
-description: 
+description: Deep Reinforcement Learning; Deterministic Policy Gradient
 img: assets/img/projects/carfollowing.jpg
 importance: 8
 category: Robotics/RL
 ---
+
+
+
+#### Project:
+Using Deep Reinforcement Learning to design a Human-like Car-Following system
+- Leveraged an Actor-critic Reinforcement Learning framework to learn personalized car-following behaviors from empirical data
+- Employed [Deep Deterministic Policy Gradient (DDPG)](https://arxiv.org/abs/1509.02971) to learn the continuous-control policy network.
+
 
 
 
@@ -21,7 +29,16 @@ category: Robotics/RL
 </div>
 
 
+<!-- #### General Information: -->
+#### Related Skills:
+- MDP
+- Bandit
+- Actor-critic Reinforcement Learning
+- Deep deterministic policy gradient
 
-#### Deep Reinforcement Learning for Human-like Car-Following System
-- Leveraged an Actor-critic Reinforcement Learning framework to learn personalized car-following behaviors from empirical data
-- Employed [Deep deterministic policy gradient (DDPG)](https://arxiv.org/abs/1509.02971) to learn the continuous-control policy network.
+<!-- #### General Information: -->
+#### Meta Information: 
+- Time: Fall 2020
+- Instructor:  Hongning Wang
+- Affiliation: University of Virginia
+- Teamate: Xingbo Fu

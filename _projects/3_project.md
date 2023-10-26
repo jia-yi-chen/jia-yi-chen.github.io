@@ -65,11 +65,8 @@ This project is centered around a theoretical search-and-rescue mission. The tas
 
 <!-- #### General Information: -->
 #### Meta Information: 
-
-Instructor:  Nanning Zheng (Institute of Artificial Intelligence and Robotics @ Xi'an Jiaotong University)
-
-Affiliation: Xi'an Jiaotong University
-
-Teamates: Yuchan Liu, Junjie Cai, Shitao Chen
+- Instructor:  Nanning Zheng (Institute of Artificial Intelligence and Robotics @ Xi'an Jiaotong University)
+- Affiliation: Xi'an Jiaotong University
+- Teamates: Yuchan Liu, Junjie Cai, Shitao Chen
 
 <!-- #### Drone Vision-guided Autonomous Navigation & Search-and-rescue System -->

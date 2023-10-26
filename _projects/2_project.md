@@ -29,7 +29,10 @@ To address these tasks, this project aims to *simulates how artists harness skil
 
 ### Data Creation:
 
-Created a 2D-3D dataset, including 3D models rendered by multiple types of lighting (by Maya), 2D photos annotated by lighting and segmentation (by Photoshop and Matlab), and a hand-drawn stylistic material for testing (CorelPainter).
+I manually created a small 2D-to-3D dataset for this project. The dataset includes 
+- 3D models rendered by multiple types of lighting (created using Maya)
+- 2D photos annotated by lighting and segmentation (created using Photoshop and Matlab), and 
+- Hand-drawn stylistic material examples (drawn using CorelPainter)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -45,6 +48,21 @@ Created a 2D-3D dataset, including 3D models rendered by multiple types of light
 
 ### Some Results:
 
+
+
+<div class="row">
+    <div class="col-sm mt-4 mt-md-0">
+        {% include figure.html path="assets/img/publication_preview/mythesis_3d.jpg" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-4 mt-md-0">
+        {% include figure.html path="assets/img/publication_preview/mythesis_2d.jpg" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
 <div class="row">
     <div class="col-sm mt-4 mt-md-0">
         {% include figure.html path="assets/img/publication_preview/mythesis2.jpg" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
@@ -52,8 +70,3 @@ Created a 2D-3D dataset, including 3D models rendered by multiple types of light
 </div>
 
 
-<div class="row">
-    <div class="col-sm mt-4 mt-md-0">
-        {% include figure.html path="assets/img/publication_preview/mythesis.jpg" title="3d-to-2d Art dataset" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>

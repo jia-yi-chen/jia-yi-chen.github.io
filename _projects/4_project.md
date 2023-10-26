@@ -41,9 +41,7 @@ Built an autonomous framework on TurtleBot to act as a human security guard.
 
 <!-- #### General Information: -->
 ### Meta Information: 
-
-Time: Fall 2018
-
-Instructor:  Bezzo Nicola
-
-Teamates: Qiang Zhong, Chuanhao Li
+- Time: Fall 2018
+- Instructor:  Bezzo Nicola
+- Affiliation: University of Virginia
+- Teamates: Qiang Zhong, Chuanhao Li
