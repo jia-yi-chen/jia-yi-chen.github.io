@@ -138,6 +138,81 @@
 <p>An up-to-date list is available on <a href="https://scholar.google.com/citations?user=f3Iz6qoAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>.</p>
 
 <div class="publications">
+  <h2 class="year">2025</h2>
+  <ol class="bibliography"></ol>
+
+  <h2 class="year">2024</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+<div class="row">
+  <div class="col-sm-2 preview">
+<img id="fedmultimodalagipng" class="preview z-depth-1 rounded myImg" src="/assets/img/publication_preview/fedmultimodalagi.png"><div id="fedmultimodalagipng-modal" class="modal2">
+      <span class="closeimg" onclick="document.getElementById('fedmultimodalagipng-modal').style.display='none'">×</span>
+      <div class="myCaption"></div>
+      <img class="modal-content2" id="fedmultimodalagipng-modal-img">
+    </div>
+    <script>
+      // Get the modal
+      var modal = document.getElementById("fedmultimodalagipng-modal");
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('fedmultimodalagipng');
+      var modalImg = document.getElementById("fedmultimodalagipng-modal-img");
+      var captionText = modal.getElementsByTagName('div')[0];
+      img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = "";
+      }
+      // Get the <span> element that closes the modal
+      var span = modal.getElementsByTagName('span')[0];
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      }
+      modal.onclick = function () {
+        modal.style.display = "none";
+      }
+    </script>
+</div>
+
+  <!-- Entry bib key -->
+  <div id="chen2024" class="col-sm-8 col-md-9">
+    <!-- Title -->
+    <div class="title">On Disentanglement of Asymmetrical Knowledge Transfer for Modality-Task Agnostic Federated Learning</div>
+    <!-- Author -->
+    <div class="author">
+      
+
+      <em>Jiayi Chen</em>, and Aidong Zhang</div>
+
+    <!-- Journal/Book title and date -->
+    
+    
+    <div class="periodical">
+      <em>In AAAI (Oral)</em>, 2024
+    </div>
+    <div class="periodical">
+      
+    </div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a href="/assets/pdf/aaai24p.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+      <a href="/assets/pdf/AAAI-oral-2024-2-23.pdf" class="btn btn-sm z-depth-0" role="button">Slides</a>
+    </div>
+    
+    <div class="badges">
+    </div>
+
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>There has been growing concern regarding data privacy during the development and deployment of Multimodal Foundation Models for Artificial General Intelligence (AGI), while Federated Learning (FL) allows multiple clients to collaboratively train models in a privacy-preserving manner. This paper formulates and studies Modality-task Agnostic Federated Learning (AFL) to pave the way toward privacy-preserving AGI. A unique property of AFL is the asymmetrical knowledge relationships among clients due to modality gaps, task gaps, and domain shifts between clients. This raises a challenge in learning an optimal inter-client information-sharing scheme that maximizes positive transfer and minimizes negative transfer for AFL. However, prior FL methods, mostly focusing on symmetrical knowledge transfer, tend to exhibit insufficient positive transfer and fail to fully avoid negative transfer during inter-client collaboration. To address this issue, we propose DisentAFL, which leverages a two-stage Knowledge Disentanglement and Gating mechanism to explicitly decompose the original asymmetrical inter-client information-sharing scheme into several independent symmetrical inter-client information-sharing schemes, each of which corresponds to certain semantic knowledge type learned from the local tasks. </p>
+    </div>
+  </div>
+</div>
+</li></ol>
+
   <h2 class="year">2023</h2>
   <ol class="bibliography">
 <li>
